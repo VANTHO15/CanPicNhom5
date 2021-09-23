@@ -1,0 +1,83 @@
+
+ROM used:   2424/8192 (30%)
+            2770/8192 (34%) including unused fragments
+
+            2.4 Average locations per line
+            15.2 Average locations per statement
+
+RAM used:   29/368 (8%) at main() level
+            65/368 (18%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  116    82  52  B212H.c
+   26     0   0  B212H.h
+  671     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
+  211    77  48  ..\i2c_Flex_LCD.c
+----- -----
+ 1024   159 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     24   1    1             @delay_ms1
+0     52   2    1   290  2.2  @I2C_WRITE_1
+0     10   0    1    63  2.3  lcd_backlight_led
+0     78   3    3   574  5.9  i2c_send_nibble
+0     49   2    3   149  2.8  lcd_send_byte
+0     10   0    0    61  1.9  lcd_clear
+0      8   0    0    61  1.9  @const649
+0     95   4    5   902  5.8  lcd_init
+0     55   2    7   681  8.0  lcd_gotoxy
+0     37   2    1   310  5.9  LCD_PUTC
+ Inline         6   551  6.4  readCount
+0    123   5    4   191  4.5  readAverage
+0     79   3   13  2365  7.5  @DIV3232
+1    722  30   18  2439  7.5  MAIN
+0      8   0    0  1236  5.4  @const681
+0     86   4    4             @PSTRINGC7_660
+0      4   0    0             @const683
+0      5   0    0             @const684
+0      8   0    0   290  2.2  @const685
+0     27   1    4   290  2.2  @DTOF
+0    202   8   14   290  2.2  @DIVFF
+0     65   3   10   290  2.2  @FLT
+0      9   0    0             @const696
+0      3   0    0             @const697
+0      7   0    0             @const698
+0     87   4    5             @PSTRINGCN7_660
+0    117   5   13             @MULFF
+0     31   1    5             @FTOSD
+0    195   8   13             @PRINTF_L32D_660FPFPF
+0      3   0    0             @const709
+0      7   0    0             @const710
+0      3   0    0             @const711
+0      7   0    0             @const712
+0      3   0    0             @const713
+0    201   8   13             @PRINTF_L32D_9600_62_63FPFPF
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               18
+    Statements              159
+    Comments                202
+    Volume (V)              17483
+    Difficulty (D)          77.2
+    Effort to implement (E) 1349051
+    Time to implement (T)   20 hours, 49 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   31
+    Maintainability (MI)    55
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1698  346  
+00800-00FFF   722  1326  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

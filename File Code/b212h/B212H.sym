@@ -1,0 +1,194 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     LCD_ADDR
+021     lcd_total_rows
+022     lcd_total_columns
+023     new_row_request
+024     BACKLIGHT_LED
+025     lcd_gotoxy.data
+026     MAIN.i
+027     MAIN.h
+028-02B MAIN.read1
+02C-02F MAIN.offset
+030-033 MAIN.gram
+034-037 MAIN.val1
+038-03B MAIN.val2
+03C     lcd_init.addr
+03C-03F @DIVFF.P1
+03C-03F @DTOF.P2
+03C-03F readAverage.sum
+03C     lcd_backlight_led.bl
+03C     MAIN.@SCRATCH1
+03C     @PSTRINGC7_660.@SCRATCH1
+03D     lcd_init.col
+03D     MAIN.@SCRATCH2
+03D     @PSTRINGC7_660.@SCRATCH2
+03E     lcd_init.row
+03E     MAIN.@SCRATCH3
+03E     @PSTRINGC7_660.@SCRATCH3
+03F     lcd_init.i
+03F     MAIN.@SCRATCH4
+03F     @PSTRINGC7_660.@SCRATCH4
+040-043 @PRINTF_L32D_9600_62_63FPFPF.P1
+040-043 @PRINTF_L32D_660FPFPF.P2
+040-043 @DIVFF.P3
+040-043 @FLT.P4
+040     @PSTRINGCN7_660.P5
+040     readAverage.k
+040     lcd_init.@SCRATCH1
+041-044 readCount.data
+041     @PSTRINGCN7_660.@SCRATCH1
+042     @PSTRINGCN7_660.@SCRATCH2
+043     @PSTRINGCN7_660.@SCRATCH3
+044     @PRINTF_L32D_9600_62_63FPFPF.P1
+044-047 @FLT.P2
+044     @PRINTF_L32D_660FPFPF.P3
+044     @DIVFF.@SCRATCH1
+044     @PSTRINGCN7_660.@SCRATCH4
+045     readCount.j
+045     @DIVFF.@SCRATCH2
+045     @PRINTF_L32D_660FPFPF.@SCRATCH1
+045     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH1
+046     readCount.@SCRATCH1
+046     @DIVFF.@SCRATCH3
+046     @PRINTF_L32D_660FPFPF.@SCRATCH2
+046     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH2
+047     @DIVFF.@SCRATCH4
+047     @PRINTF_L32D_660FPFPF.@SCRATCH3
+047     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH3
+048     @DIVFF.@SCRATCH5
+048     @FLT.@SCRATCH1
+048     @PRINTF_L32D_660FPFPF.@SCRATCH4
+048     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH4
+049     @DIVFF.@SCRATCH6
+049     @FLT.@SCRATCH2
+049     @PRINTF_L32D_660FPFPF.@SCRATCH5
+049     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH5
+04A     @PRINTF_L32D_660FPFPF.@SCRATCH6
+04A     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH6
+04B     @PRINTF_L32D_660FPFPF.@SCRATCH7
+04B     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH7
+04C     @PRINTF_L32D_660FPFPF.@SCRATCH8
+04C     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH8
+04D-050 @FTOSD.P1
+04D-050 @MULFF.P2
+04D     LCD_PUTC.in_data
+04D-050 @DIV3232.P1
+04E     @delay_ms1.P1
+04E     lcd_gotoxy.x
+04F     lcd_gotoxy.y
+050     lcd_gotoxy.row
+051-054 @DIV3232.P1
+051-054 @MULFF.P2
+051     lcd_gotoxy.column
+051     @FTOSD.@SCRATCH1
+052     lcd_gotoxy.row_addr
+053     lcd_gotoxy.lcd_address
+054     lcd_gotoxy.@SCRATCH1
+055     lcd_send_byte.data
+055     @DIV3232.@SCRATCH1
+055     @MULFF.@SCRATCH1
+056     lcd_send_byte.type
+056     @DIV3232.@SCRATCH2
+056     @MULFF.@SCRATCH2
+057     lcd_send_byte.@SCRATCH1
+057     @DIV3232.@SCRATCH3
+057     @MULFF.@SCRATCH3
+058     i2c_send_nibble.data
+058     @DIV3232.@SCRATCH4
+058     @MULFF.@SCRATCH4
+059     i2c_send_nibble.type
+059     @DIV3232.@SCRATCH5
+059     @MULFF.@SCRATCH5
+05A     i2c_send_nibble.@SCRATCH1
+05B     @I2C_WRITE_1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000008  LCD_INIT_STRING.data
+00000C  @const681.call
+000014  @const683.call
+000018  @const684.call
+00001D  @const685.call
+000025  @const696.call
+00002E  @const697.call
+000031  @const698.call
+000038  @const709.call
+00003B  @const710.call
+000042  @const711.call
+000045  @const712.call
+00004C  @const713.call
+00004F  @DIV3232
+00009E  readAverage
+0000A7  readCount
+000119  @delay_ms1
+000131  @I2C_WRITE_1
+000165  i2c_send_nibble
+0001B3  lcd_send_byte
+0001E4  lcd_clear
+0001EE  lcd_init
+00024D  lcd_backlight_led
+000257  lcd_gotoxy
+00028E  LCD_PUTC
+0002B3  @PSTRINGC7_660
+000309  @DTOF
+000324  @DIVFF
+0003EE  @FLT
+00042F  @PSTRINGCN7_660
+000486  @MULFF
+0004FB  @FTOSD
+00051A  @PRINTF_L32D_660FPFPF
+0005DD  @PRINTF_L32D_9600_62_63FPFPF
+000800  MAIN
+000800  @cinit1
+000816  @cinit2
+
+Project Directory:
+    D:\CCS\code\
+
+Project Files:
+    B212H.c                                                 [20-Apr-21 00:23  CRC=840C1878]
+    B212H.h                                                 [19-Apr-21 18:19  CRC=462AC82C]
+    C:\Program Files (x86)\PICC\Devices\16F877A.h           [12-Nov-13 14:35  CRC=81334808]
+    ..\i2c_Flex_LCD.c                                       [27-Apr-20 01:13  CRC=16AFB211]
+
+Source signature=78C98CCE
+
+Units:
+    B212H (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   B212H.xsym
+    Errors:      B212H.err
+    Ext Symbols: B212H.esym
+    INHX8:       B212H.hex
+    Symbols:     B212H.sym
+    List:        B212H.lst
+    Debug/COFF:  B212H.cof
+    Project:     B212H.ccspjt
+    Call Tree:   B212H.tre
+    Statistics:  B212H.STA

@@ -1,0 +1,44 @@
+[PROJECT]
+Target=B212H.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.015
+Compiler=PCM
+CCSVersion=5.015
+[Target Data]
+FileList=B212H.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[D:\CCS\code\B212H]
+Type=4
+[mru-list]
+1=B212H.c
+[Opened Files]
+1=B212H.c
+2=B212H.h
+3=
+4=..\4222__dfplayer_module_control_with_pic_v1.0.0.0\DFPLAYER\mp3_chino.c
+5=..\4222__dfplayer_module_control_with_pic_v1.0.0.0\DFPLAYER\mp3_chino.h
+6=
+[B212H.c]
+Type=4
+[Units]
+Count=1
+1=B212H (main)
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=1
+D1=20-04-2021
+D1_L=6
+D1_L1=[41128]Project Opened.
+D1_L2=[41171]Started Editing.
+D1_L3=[41485]Stopped Editing.
+D1_L4=[42316]Started Editing.
+D1_L5=[42637]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L6=[42684]Project Closed.

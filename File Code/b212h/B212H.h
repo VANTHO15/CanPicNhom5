@@ -1,0 +1,25 @@
+#include <16F877A.h>
+#device ADC=16
+
+#FUSES NOWDT                    //No Watch Dog Timer
+#FUSES NOPUT                    //No Power Up Timer
+#FUSES NOBROWNOUT               //No brownout reset
+#FUSES NOLVP                    //No low voltage prgming, B3(PIC16) or B5(PIC18) used for I/O
+#FUSES NOCPD                    //No EE protection
+#FUSES NOWRT                    //Program memory not write protected
+#FUSES NOPROTECT                //Code not protected from reading
+
+#use delay(crystal=8000000,restart_wdt)
+#use STANDARD_IO( E )
+#use FIXED_IO( C_outputs=PIN_C5 )
+#define DT1   PIN_A0
+#define sck   PIN_A1
+#define SOFTWARE_TX   PIN_B2
+#define SCL_0   PIN_C3
+#define SDA_0   PIN_C4
+#define LED_BLINK   PIN_C5
+#define RS_232_TX   PIN_C6
+#define RS_232_RX   PIN_C7
+
+#use rs232(baud=9600,parity=N,xmit=RS_232_TX,rcv=RS_232_RX,bits=8)
+#use i2c(master, sda=SDA_0, scl=SCL_0)

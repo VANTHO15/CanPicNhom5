@@ -1,0 +1,39 @@
+Compiling E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H on 20-Apr-21 at 11:45
+*** Error 18 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 2(10,34): File can not be opened
+    Not in source "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\D:\CCS\i2c_Flex_LCD.c"
+    Not in local "D:\CCS\i2c_Flex_LCD.c"
+    Not in project "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\D:\CCS\i2c_Flex_LCD.c"
+    Not in default "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\D:\CCS\i2c_Flex_LCD.c"
+*** Error 76 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 16(11,13): Expect ;
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 39(9,10): Undefined identifier  -- lcd_init
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 40(18,19): Undefined identifier  -- lcd_backlight_led
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 41(10,11): Undefined identifier  -- LCD_Clear
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 42(13,14): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 43(8,16): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 44(13,14): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 45(9,17): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 47(11,12): Undefined identifier  -- LCD_Clear
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 48(13,14): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 49(9,17): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 51(12,13): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 52(8,16): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 73(15,16): Undefined identifier  -- LCD_Clear
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 74(15,16): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 75(13,21): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 76(16,17): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 77(8,16): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 81(17,18): Undefined identifier  -- LCD_Clear
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 82(17,18): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 83(14,22): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 85(16,17): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 86(13,21): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 93(15,16): Undefined identifier  -- LCD_Clear
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 94(16,17): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 95(13,21): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 96(16,17): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 97(13,21): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 104(15,16): Undefined identifier  -- LCD_Clear
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 105(16,17): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 106(13,21): Undefined identifier   lcd_putc
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 107(16,17): Undefined identifier  -- lcd_gotoxy
+*** Error 12 "E:\0000LearnSchool\VDK\HuLa Code CCS\HuLa Code CCS\code\b212h\B212H.c" Line 108(13,21): Undefined identifier   lcd_putc

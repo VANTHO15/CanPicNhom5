@@ -1,0 +1,163 @@
+ÀÄB212H
+   ÀÄMAIN  1/722  Ram=18
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄreadAverage  0/123  Ram=4
+      ³  ÃÄreadCount  (Inline)  Ram=6
+      ³  ÀÄ@DIV3232  0/79  Ram=13
+      ÃÄlcd_init  0/95  Ram=5
+      ³  ÃÄ@delay_ms1  0/24  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ÃÄi2c_send_nibble  0/78  Ram=3
+      ³  ³  ÃÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ³  ÀÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ÃÄ@delay_ms1  0/24  Ram=1
+      ³  ÃÄi2c_send_nibble  0/78  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/24  Ram=1
+      ³  ÃÄi2c_send_nibble  0/78  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/24  Ram=1
+      ³  ÃÄ@const649  0/8  Ram=0
+      ³  ÃÄlcd_send_byte  0/49  Ram=3
+      ³  ³  ÃÄ@I2C_WRITE_1  0/52  Ram=1
+      ³  ³  ÃÄi2c_send_nibble  0/78  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄi2c_send_nibble  0/78  Ram=3
+      ³  ³     ÀÄ*
+      ³  ÃÄ@delay_ms1  0/24  Ram=1
+      ³  ÀÄlcd_clear  0/10  Ram=0
+      ³     ÃÄlcd_send_byte  0/49  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÀÄ@delay_ms1  0/24  Ram=1
+      ÃÄlcd_backlight_led  0/10  Ram=1
+      ÃÄlcd_clear  0/10  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄlcd_send_byte  0/49  Ram=3
+      ³     ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ³  ÃÄlcd_clear  0/10  Ram=0
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄlcd_send_byte  0/49  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄlcd_send_byte  0/49  Ram=3
+      ³  ³     ÀÄ*
+      ³  ÀÄLCD_PUTC  0/37  Ram=1
+      ³     ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/24  Ram=1
+      ÃÄlcd_clear  0/10  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/24  Ram=1
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/24  Ram=1
+      ÃÄreadAverage  0/123  Ram=4
+      ³  ÀÄ*
+      ÃÄ@DTOF  0/27  Ram=4
+      ÃÄ@DTOF  0/27  Ram=4
+      ÃÄ@DIVFF  0/202  Ram=14
+      ÃÄ@FLT  0/65  Ram=10
+      ÃÄlcd_clear  0/10  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_clear  0/10  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@DIVFF  0/202  Ram=14
+      ÃÄ@PSTRINGCN7_660  0/87  Ram=5
+      ³  ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄLCD_PUTC  0/37  Ram=1
+      ³     ÀÄ*
+      ÃÄ@PRINTF_L32D_660FPFPF  0/195  Ram=13
+      ³  ÃÄ@MULFF  0/117  Ram=13
+      ³  ÃÄ@FTOSD  0/31  Ram=5
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@DIV3232  0/79  Ram=13
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_clear  0/10  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@DIVFF  0/202  Ram=14
+      ÃÄ@PSTRINGCN7_660  0/87  Ram=5
+      ³  ÀÄ*
+      ÃÄ@PRINTF_L32D_660FPFPF  0/195  Ram=13
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_clear  0/10  Ram=0
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@DIVFF  0/202  Ram=14
+      ÃÄ@PSTRINGCN7_660  0/87  Ram=5
+      ³  ÀÄ*
+      ÃÄ@PRINTF_L32D_660FPFPF  0/195  Ram=13
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄLCD_PUTC  0/37  Ram=1
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/55  Ram=7
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_660  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@DIVFF  0/202  Ram=14
+      ÀÄ@PRINTF_L32D_9600_62_63FPFPF  0/201  Ram=13
+         ÃÄ@MULFF  0/117  Ram=13
+         ÃÄ@FTOSD  0/31  Ram=5
+         ÃÄ@DIV3232  0/79  Ram=13
+         ÀÄ@DIV3232  0/79  Ram=13
